@@ -4,8 +4,7 @@ import {ProductConsumer} from '../context';
 import { Link } from 'react-router-dom';
 export default class Home extends Component {
   render() {
-    return (
-        
+    return (   
     <HomeWrapper>
         {/* Top 1 by 2 Grid Promo */}
         <div class="container">

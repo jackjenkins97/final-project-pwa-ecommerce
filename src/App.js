@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {Switch,Route} from 'react-router-dom';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import MetaTags from './components/meta-tags';
 import Navbar from './components/Navbar';
 import Navpromo from './components/Nav-Promo';
 import Home from './components/Home';
@@ -21,6 +22,7 @@ class App extends Component {
     return (
       <React.Fragment>
         <div class="content">
+        <MetaTags />
         <Navbar />
         <Navpromo />
         <Switch>
