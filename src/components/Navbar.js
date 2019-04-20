@@ -29,7 +29,10 @@ max-width: 100%;
 .nav-link{
     color:var(--mainDark)!important;
     font-size:1.3rem;
+}
     
+button{
+    border: 0rem;
 }
 `
 

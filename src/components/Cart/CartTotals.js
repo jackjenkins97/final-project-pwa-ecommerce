@@ -1,20 +1,15 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import PayPalButton from './PayPalButton';
+import styled from 'styled-components';
 export default function CartTotals({value,history}) {
     const{cartSubTotal,cartTax,cartTotal,clearCart} = value;
     return (<React.Fragment>
         <div className="container">
             <div className="row">
                 <div className="col-10 mt-2 ml-md-auto col-sm-8 text-capitilized text-right">
-                <Link to="/">
-                    <button className="btn btn-outline-danger text-uppercase mb-3 px-5" type="button" onClick={()=>clearCart()}>
-                        Clear Basket
-                    </button>
-                </Link>
-                <PayPalButton 
-                total={cartTotal} clearCart={clearCart} history={history}
-                />
+                
+                
                 <h5>
                     <span className="text-title">
                     sub total:</span>
@@ -30,10 +25,27 @@ export default function CartTotals({value,history}) {
                     total:</span>
                     <strong>£ {cartTotal.toFixed(2)}</strong>
                 </h5>
-                
+                <br />
+                <PayPalButton 
+                total={cartTotal} clearCart={clearCart} history={history}
+                />
+                <br />
+                <Link to="/">
+                    <RemoveButton>
+                    <p class onClick={()=>clearCart()}>
+                        Clear Basket
+                    </p>
+                    </RemoveButton>
+                </Link>
                 </div>
             </div>
         </div>
     </React.Fragment>
   );
 }
+
+const RemoveButton = styled.div `
+p {
+    color: red;
+}
+`

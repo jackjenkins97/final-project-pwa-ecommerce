@@ -22,7 +22,7 @@ export default class Product extends Component {
             value.addToCart(id);
             value.openModal(id);
             }}>
-          {inCart?(<p className="text-captilize mb-0" disabled>in cart</p>):(<Basket src={basket}/>)}
+          {inCart?(<p className="text-captilize mb-0" disabled>In Basket</p>):(<Basket src={basket}/>)}
           </button>
           </div>)}
           
@@ -94,10 +94,8 @@ const ProductWrapper = styled.div`
   border: none;
   font-size: 1.4rem;
   border-radius: 0.5rem 0 0 0;
-  transform: translate(100%, 100%);
+  transform: transform: translate(0, 0);
   transition: all 1s linear;
-}
-.img-container: hover .cart-btn{
-  transform: translate(0, 0);
+  color: #ffffff;
 }
 `

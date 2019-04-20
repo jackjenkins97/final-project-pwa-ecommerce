@@ -4,7 +4,7 @@ export const ButtonContainer = styled.button`
     text-transform:capitalize;
     font-size:1.4rem;
     background:transparent;
-    border:0.00rem solid var(--mainGreen);
+    border:0.10rem solid var(--mainGreen);
     border-color:${props => 
         (props.cart ? "var(--mainGreen)" :"var(--lightGreen)")};
     color:${prop => prop.cart ? "var(--mainGreen)": "var(--lightGreen)"};
@@ -17,5 +17,7 @@ export const ButtonContainer = styled.button`
     margin:0.2rem 0.5rem 0.2rem 0;
 &:focus{    
     outline:none;
+
+    
 }
 `

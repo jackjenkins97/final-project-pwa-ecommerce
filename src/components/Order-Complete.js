@@ -24,7 +24,7 @@ export default class Complete extends Component {
         <div class="text-wrapper d-md-block p-1">
           <div class="inner-text-wrapper">
             <p>Congratulations! Your order is complete and work has started to get it to your front door as soon as possible. Check your email for further confirmation.</p>
-            <Link to='/'><p class="link">Tap to return to your homepage!</p></Link>
+            <Link to='/'><p class="link">Tap to return to the homepage</p></Link>
             </div>
         </div> 
         </Wrapper>
