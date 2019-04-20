@@ -98,4 +98,10 @@ const ProductWrapper = styled.div`
   transition: all 1s linear;
   color: #ffffff;
 }
+
+.card-img-top {
+  max-width:400px;
+  max-height:400px;
+  background: url(../img/products/product-placeholder.png) no-repeat scroll 0 0;
+}
 `
