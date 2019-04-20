@@ -9,12 +9,12 @@ export default class Navbar extends Component {
         return (
             <NavWrapper className="navbar navbar-expand-sm px-sm-5">
                 <Link to='/'>
-                    <img src={logo} alt="Grocery Store" className="navbar-brand"/>
+                    <img src={logo} alt="Grocery Store Logo" className="navbar-brand"/>
                 </Link>
                 <Link to='/cart' className="ml-auto">
                 <ButtonContainer>
                     <span className="mr-2">
-                    <Basket src={basket} className="navbar-brand"/>Basket
+                    <Basket src={basket} alt="Basket Icon" className="navbar-brand"/>Basket
                     </span>
                 </ButtonContainer>
                 </Link>

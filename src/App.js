@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {Switch,Route} from 'react-router-dom';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import MetaTags from './components/meta-tags';
+import MetaTags from './components/Meta-Tags';
 import Navbar from './components/Navbar';
 import Navpromo from './components/Nav-Promo';
 import Home from './components/Home';
@@ -16,6 +16,8 @@ import Footer from './components/Footer';
 import About from './components/About';
 import Contact from './components/Contact';
 import Privacy from './components/Privacy';
+import Complete from './components/Order-Complete';
+import Incomplete from './components/Order-Incomplete';
 
 class App extends Component {
   render() {
@@ -34,7 +36,8 @@ class App extends Component {
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
           <Route path="/privacy" component={Privacy} />
-          <Route component={Default} />
+          <Route path="/complete" component={Complete} />
+          <Route path="/incomplete" component={Incomplete} />
         </Switch>
         </div>
         <Footer />

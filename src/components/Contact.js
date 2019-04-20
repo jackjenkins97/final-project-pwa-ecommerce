@@ -15,8 +15,8 @@ export default class Contact extends Component {
         <div class="container">
             <div class="row">
                 <div class="img-container">
-                <img src={require('../img/Contact-header.jpg')} class=" d-none d-md-block p-1" alt="Massive Frozen Food Selection"/>
-                <img src={require('../img/Contact-header_m.jpg')} class="img-m d-sm-block d-md-none p-1" alt="Massive Frozen Food Selection"/>
+                <img src={require('../img/Contact-header.jpg')} class=" d-none d-md-block p-1" alt="Handshake photo"/>
+                <img src={require('../img/Contact-header_m.jpg')} class="img-m d-sm-block d-md-none p-1" alt="Handshake photo"/>
                 </div>
             </div>
         </div>

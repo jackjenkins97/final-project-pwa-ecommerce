@@ -33,6 +33,9 @@ body{
 .text-green{
   color: var(--mainGreen);
 }
+.text-red{
+  color: #A04040;
+}
 .text-light{
   color: var(--lightGrey);
 }

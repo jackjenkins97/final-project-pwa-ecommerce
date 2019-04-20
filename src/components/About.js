@@ -18,8 +18,8 @@ export default class About extends Component {
         <div class="container">
             <div class="row">
                 <div class="img-container">
-                <img src={require('../img/About-header.jpg')} class=" d-none d-md-block p-1" alt="Massive Frozen Food Selection"/>
-                <img src={require('../img/About-header_m.jpg')} class="img-m d-sm-block d-md-none p-1" alt="Massive Frozen Food Selection"/>
+                <img src={require('../img/About-header.jpg')} class=" d-none d-md-block p-1" alt="Sunny farm fields photo"/>
+                <img src={require('../img/About-header_m.jpg')} class="img-m d-sm-block d-md-none p-1" alt="Sunny farm fields photo"/>
                 </div>
             </div>
         </div>
@@ -31,8 +31,8 @@ export default class About extends Component {
         <div class="container">
             <div class="row">
                 <div class="img-container">
-                <img src={require('../img/About-mid.jpg')} class=" d-none d-md-block p-1" alt="Massive Frozen Food Selection"/>
-                <img src={require('../img/About-mid_m.jpg')} class="img-m d-sm-block d-md-none p-1" alt="Massive Frozen Food Selection"/>
+                <img src={require('../img/About-mid.jpg')} class=" d-none d-md-block p-1" alt="Farmer watering crops photo"/>
+                <img src={require('../img/About-mid_m.jpg')} class="img-m d-sm-block d-md-none p-1" alt="Farmer watering crops photo"/>
                 </div>
             </div>
         </div>
